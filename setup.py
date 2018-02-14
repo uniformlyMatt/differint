@@ -1,11 +1,11 @@
 from setuptools import setup
 
 def readme():
-      with open('README.md') as f:
+      with open('README.rst') as f:
             return f.read()
 
 setup(name = 'differint',
-      version = '0.3',
+      version = '0.3.2',
       description = 'Collection of algorithms for numerically calculating fractional derivatives.',
       long_description = readme(),
       classifiers=[
